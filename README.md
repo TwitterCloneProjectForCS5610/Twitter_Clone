@@ -31,6 +31,8 @@ This project is a clone of Twitter, designed to replicate key features of the po
    git clone [your-repository-link]
 2. Navigate to the directory 
 3. install dependency
-   -npm install
+    ```bash
+    -npm install
 4. start the server
-   -npm start
+    ```bash
+    -npm start
