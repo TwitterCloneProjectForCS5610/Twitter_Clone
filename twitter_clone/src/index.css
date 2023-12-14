@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root .ant-card-meta-title {
+    overflow: unset;
+    white-space: unset;
+    text-overflow: unset;
+}

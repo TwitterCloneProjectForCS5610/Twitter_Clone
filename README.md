@@ -1,6 +1,36 @@
-# Twitter_Clone
-some referal link for the Twitter Clone: https://github.com/NikValdez/FullStackTwitterClone/tree/master
+# Twitter Clone
+team member : Shuo Liu , Yichen Liu, Zewen Li
+## Overview
+This project is a clone of Twitter, designed to replicate key features of the popular social media platform. Our version focuses on delivering a streamlined user experience and demonstrating core functionalities like tweeting, following users, and real-time updates.
 
-And the requirement for the class : https://docs.google.com/document/d/1zNftO0XshPSAbgNg8OAlK3gnoHXsWBjX5z-9eVEnN2Y/edit#heading=h.3e1p3raqs1db
-# team members: 
-# And there obligations : 
+## Features
+- **User Authentication**: Sign up, log in, and log out.
+- **Tweeting**: Post tweets with text.
+- **Following**: Follow and unfollow other users.
+- **Real-Time Updates**: See new tweets and followers in real time.
+- (Include other features specific to your project here.)
+
+## Technologies Used
+- React.js
+- Redux for state management
+- Node.js and Express.js for the backend
+- MongoDB for the database
+- Socket.IO for real-time communication
+- (List any other technologies/frameworks/libraries used in your project.)
+
+## Getting Started
+
+### Prerequisites
+- Node.js
+- npm or yarn
+- MongoDB
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone [your-repository-link]
+2. Navigate to the directory 
+3. install dependency
+   -npm install
+4. start the server
+   -npm start
