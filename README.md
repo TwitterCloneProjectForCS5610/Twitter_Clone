@@ -36,3 +36,5 @@ This project is a clone of Twitter, designed to replicate key features of the po
 4. start the server
     ```bash
     -npm start
+
+### Screen Recording for the Twitter App

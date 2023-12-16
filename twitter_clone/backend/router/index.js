@@ -42,6 +42,7 @@ export default function (router) {
   });
 
   router.post('/api/user/register', async (req, res) => {
+    
     if (await User.findOne({ username: req.body.username })) {
       throw {
         message: 'User already exist',
@@ -51,6 +52,7 @@ export default function (router) {
       ...req.body,
       password: await bcrypt.hash(req.body.password, 10),
     });
+   
     await user.save();
     req.session.uid = user._id;
     res.sendStatus(200);
