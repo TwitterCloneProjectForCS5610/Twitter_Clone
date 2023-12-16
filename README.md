@@ -38,3 +38,4 @@ This project is a clone of Twitter, designed to replicate key features of the po
     -npm start
 
 ### Screen Recording for the Twitter App
+[recording](/screen_recording.mov)
